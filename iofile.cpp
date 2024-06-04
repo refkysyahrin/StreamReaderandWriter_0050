@@ -8,4 +8,8 @@ int main() {
 
     // Membuka file dalam mode menulis.
     offstream outfile;
+    // Menunujuk ke sebuah nama file
+    outfile.open("contohfile.txt");
+
+    cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 }
